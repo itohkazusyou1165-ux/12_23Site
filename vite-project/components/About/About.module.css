@@ -1,0 +1,44 @@
+.Img img {
+  width: 100%;
+}
+
+img {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+.About{
+    max-width: 100%;
+    width: 100%;
+    background-color: black;
+    height: auto;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    padding: 0px 140px;
+}
+
+p{
+    color: white;
+    font-weight: 700;
+    font-family: "Shippori Mincho", serif;
+}
+.text01{
+    display: flex;
+    justify-content: space-around;
+    padding: 145px 145px;
+   
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Shippori Mincho", serif;
+  font-style: normal;
+  white-space: nowrap;
+}

@@ -1,0 +1,56 @@
+.Newscontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../../src/assets/sauna02.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.NewsCard{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   padding: 1px;
+   margin: 40px;
+    border: 1px solid rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(234, 234, 234);
+    background-color: rgb(15, 14, 14);
+}
+
+
+.ImageArea{
+    width: 100%;
+    height: auto;
+}
+
+.TextContent{
+    padding: 20px 40px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.Logo{
+    width: 80px;
+    height: auto;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 30px;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+}

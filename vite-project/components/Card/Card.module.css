@@ -1,0 +1,46 @@
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+    max-width: 1000px;
+  }
+  
+  /* isReversedがtrueの時に左右反転させる */
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .imageArea, .textArea {
+    flex: 1;
+  }
+  
+  .imageArea img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .title {
+    font-family: serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .description {
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+  
+  .link {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: inherit;
+  }
+
+  .textArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

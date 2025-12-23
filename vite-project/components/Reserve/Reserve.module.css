@@ -1,0 +1,13 @@
+.Reserve{
+    width: 100%;
+    height: auto;
+    background: url(../../src/assets/sauna05.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Reservetext{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(251, 251, 251);
+    padding: 45px 40px;
+}
