@@ -63,7 +63,7 @@ export default function About() {
       <News />
       <Reserve />
       <Footer />
-      <Room />
+     
     </section>
   );
 }

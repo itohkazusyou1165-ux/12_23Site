@@ -10,10 +10,10 @@ export default function Header() {
 <nav className={styles.nav}>
   <ul>
     {/* Routerを使用 */}
-    <li><Link to="/">About</Link></li>
-    <li><Link to="/About">Room</Link></li>
-    <li><Link to="/">Restrant</Link></li>
-    <li><Link to="/">Spa&Sauna</Link></li>
+    <li><Link to="/About">About</Link></li>
+    <li><Link to="/Room">Room</Link></li>
+    <li><Link to="/Restaurant">Restrant</Link></li>
+    <li><Link to="/Sauna&Spa">Spa&Sauna</Link></li>
     <li><Link to="/">Contact</Link></li>
   </ul>
 </nav>

@@ -1,0 +1,16 @@
+.Amenity{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 78px 40px;
+}
+.Amenityh1{
+    color: white;
+    text-align: center;
+}
+
+.children img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

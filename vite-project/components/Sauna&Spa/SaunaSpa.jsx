@@ -10,10 +10,11 @@ const aboutImages = [
     { src: AboutImg, alt: "ファーストビュー3"},
   ];
   
-export default function Room() {
+
+export default function SaunaSpa() {
   return (
     <>
-    <section className={styles.Food} >
+    <section className={styles.SaunaSpa} >
        {/* aboutImageをよんできている */}
       <h1>
      <ImageSwiper images={aboutImages} />

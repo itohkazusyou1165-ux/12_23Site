@@ -1,13 +1,45 @@
-.Reserve{
-    width: 100%;
-    height: auto;
-    background: url(../../src/assets/sauna05.png);
-    background-size: cover;
-    background-position: center;
+.Reserve {
+  max-width: 100%;
+  background-color: black;
+  height: 500px;
+  background: url(../../src/assets/scroll01.png);
+  background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+  color: rgb(18, 13, 13);
+font-size: 30px;
+ flex-shrink: 0; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.Reservetext{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(251, 251, 251);
-    padding: 40px 70px;
+.Reservetext {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(251, 251, 251);
+  padding: 40px 70px;
+}
+
+.Reserve button {
+  border-radius: 5px;
+}
+
+.Reserve img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+color: white;
+background-color: #0e0d0d;
+border-radius: 20px;
+padding: 5px;
+display: inline-block;
+text-decoration: none;
+font-size: 20px;
+}
+
+.button:hover{
+    color: #fff;
+    background:#f56500 ;
 }
