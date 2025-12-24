@@ -1,4 +1,4 @@
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "../components/Header/Header";
 import HorizontalScroll from "../features/HorizontalScroll";
 import About from "../components/About/About";
@@ -14,7 +14,6 @@ function App() {
       <Route path="/About" element={<About/>}/>
     </Routes>
     </>
-    
   );
 }
 

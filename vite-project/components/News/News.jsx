@@ -6,7 +6,7 @@ export default function News() {
   return (
     <div className={styles.Newscontainer}>
       {NewsList.map((item) => (
-        <>
+     
         
         <div key={item.id} className={styles.NewsCard}>
           <div className={styles.TextContent}>
@@ -23,7 +23,7 @@ export default function News() {
             <span><img src={Logo} alt="ロゴ" className={styles.Logo} /></span>
           </div>
         </div>
-        </>
+      
       ))}
     </div>
   );
