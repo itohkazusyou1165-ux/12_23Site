@@ -1,0 +1,60 @@
+.roomtitle h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.roomcontainer{
+    display: flex;
+    flex-basis: 50%;
+    background-color: black;
+}
+
+.roomcontainer:nth-child(4){
+    flex-direction: row-reverse;
+}
+
+
+.roomtext {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    text-align: left;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 5px;
+}
+
+.roomtitle{
+    background-color: black;
+}
+
+
+.roomimg{
+    display: flex;
+    color: black;
+    flex-basis: 50%;
+}
+
+.roomtext p{
+    color: rgb(250, 247, 247);
+}
+
+.price{
+    font-size: 24px;
+}
+
+.textchild{
+    position: relative;
+    color: rgb(250, 247, 247);
+    padding-bottom: 16px;
+}
+
+.textchild::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 40px;
+    bottom: 0;
+    height: 1px;
+    background-color: #aaa;
+}

@@ -2,9 +2,8 @@
     color: white;
     position: relative;
     text-align: right;
-    padding-right: 80px;
+    padding-right: 28%;
     font-size: 24px;
-    
 }
 
 
@@ -20,10 +19,11 @@
 .Roomtext p::after{
     content: ""; /* 擬似要素は必須 */
     position: absolute;
-    left: 86%;
+    left: 65%;
     bottom: -5px;
-    width: 130px; /* 下線の横幅 */
+    width: 300px; /* 下線の横幅 */
     height: 2px; /* 下線の太さ */
     background-color: rgb(255, 253, 253); /* 下線の色 */
     display: block;
+    padding: 0px 25px;
 }

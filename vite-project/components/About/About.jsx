@@ -1,14 +1,14 @@
 import AboutImg from "../../src/assets/pool.jpg";
 import Img02 from "../../src/assets/scroll01.png";
-import Img03 from "../../src/assets/scroll05.png";
+import Img03 from "../../src/assets/scroll005.png";
 import styles from "./About.module.css";
 import Card from "../Card/Card.jsx";
 import { cardList } from "../Card/cardList.js";
 import News from "../News/News.jsx";
-import Reserve from "../Reserve/Reserve.jsx";
 import Footer from "../Footer/Footer.jsx";
 import Room from "../Room/Room.jsx";
 import ImageSwiper from "../../features/Swiper/Swiper.jsx";
+import Reservearea from "../Reserve.area/Reservearea.jsx";
 
 // Swiperのオブジェクト格納欄これを毎回使う時よぶ
 const aboutImages = [
@@ -61,7 +61,7 @@ export default function About() {
       </div>
       <Card data={cardList[1]} />
       <News />
-      <Reserve />
+      <Reservearea/>
       <Footer />
      
     </section>

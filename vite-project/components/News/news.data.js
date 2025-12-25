@@ -5,6 +5,7 @@ import NewsImg03 from "../../src/assets/scroll01.png"
 
 export const NewsList =[
     {
+        Title:"News",
         id:"01",
         title:"檜の香りに包まれる、至高のプライベートサウナ。",
         subtitle:"心身を解き放つ、静寂の深呼吸を。",

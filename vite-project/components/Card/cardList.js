@@ -1,5 +1,5 @@
-import imgSpa from "../../src/assets/room03.png";
-import imgRoom from "../../src/assets/room01.png";
+import imgSpa from "../../src/assets/spa0.png";
+import imgRoom from "../../src/assets/scroll04.png";
 
  export const cardList =[
     {

@@ -3,10 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0;
-  max-width: 1000px;
- margin:  0 auto;
- gap: 40px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* isReversedがtrueの時に左右反転させる */
@@ -14,9 +12,6 @@
   flex-direction: row-reverse;
 }
 
-.imageArea, .textArea {
-  flex: 1; /* 半分ずつに分ける */
-}
 
 .imageArea img {
   max-width: 100%;
@@ -25,14 +20,19 @@
   object-fit: cover;
 }
 
+.imageArea{
+  flex-basis: 50%;
+}
+
 /* テキスト側の調整 */
 .textArea {
-  width: 50%;
+  width: 100%;
   display: flex;
-  flex-direction: column; /* 縦に並べる */
+  height: auto;
   justify-content: center; /* 縦方向中央 */
   align-items: flex-start; /* 左寄せ */
   gap: 20px; /* タイトル・文章・リンクの間隔 */
+  flex-basis: 50%;
 }
 
 .title {
